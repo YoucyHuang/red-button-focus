@@ -1,6 +1,6 @@
 {
-  "name": "红按钮专注钟",
-  "short_name": "红按钮",
+  "name": "专注钟",
+  "short_name": "专注钟",
   "description": "给 ADHDer 的番茄钟：按下红按钮专注 25 分钟，5/10 分钟休息，按天记录学习和休息时长。",
   "id": "./",
   "start_url": "./index.html",

@@ -1,37 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
   <defs>
     <radialGradient id="bg" cx="50%" cy="46%" r="62%">
-      <stop offset="0" stop-color="#3d5bc4"/>
-      <stop offset=".55" stop-color="#26398f"/>
-      <stop offset="1" stop-color="#1b2b72"/>
+      <stop offset="0" stop-color="#3d5bc4"/><stop offset=".55" stop-color="#26398f"/><stop offset="1" stop-color="#1b2b72"/>
     </radialGradient>
-    <radialGradient id="btn" cx="38%" cy="30%" r="75%">
-      <stop offset="0" stop-color="#ff9fb3"/>
-      <stop offset=".42" stop-color="#e63e62"/>
-      <stop offset="1" stop-color="#b5214a"/>
+    <radialGradient id="btn" cx="36%" cy="26%" r="78%">
+      <stop offset="0" stop-color="#ff8ba3"/><stop offset=".45" stop-color="#e63e62"/><stop offset="1" stop-color="#b5214a"/>
     </radialGradient>
+    <clipPath id="face"><circle cx="256" cy="260" r="150"/></clipPath>
   </defs>
   <rect width="512" height="512" fill="url(#bg)"/>
-
-  <!-- progress ring: 3/4 done -->
-  <circle cx="256" cy="262" r="186" fill="none" stroke="#ffffff" stroke-opacity=".16" stroke-width="16"/>
-  <circle cx="256" cy="262" r="186" fill="none" stroke="#ffd66b" stroke-width="16" stroke-linecap="round"
-          stroke-dasharray="876.5 1168.7" transform="rotate(-90 256 262)"/>
-
-  <!-- the red button, with a little weird-friend face -->
-  <circle cx="256" cy="280" r="142" fill="#8f1838"/>
-  <circle cx="256" cy="260" r="142" fill="url(#btn)"/>
-  <ellipse cx="200" cy="186" rx="48" ry="24" fill="#ffffff" fill-opacity=".5" transform="rotate(-28 200 186)"/>
-
-  <ellipse cx="214" cy="262" rx="21" ry="27" fill="#ffffff"/>
-  <ellipse cx="298" cy="262" rx="21" ry="27" fill="#ffffff"/>
-  <circle cx="218" cy="256" r="11" fill="#1f44a8"/>
-  <circle cx="302" cy="256" r="11" fill="#1f44a8"/>
-  <ellipse cx="176" cy="308" rx="20" ry="11" fill="#ffb3c4" fill-opacity=".85"/>
-  <ellipse cx="336" cy="308" rx="20" ry="11" fill="#ffb3c4" fill-opacity=".85"/>
-  <ellipse cx="256" cy="314" rx="11" ry="13" fill="#1f44a8"/>
-
-  <!-- sparkle -->
-  <path d="M446 34 Q451 62 478 68 Q451 74 446 102 Q441 74 414 68 Q441 62 446 34 Z" fill="#ffd66b"/>
-  <path d="M104 392 Q107 410 124 414 Q107 418 104 436 Q101 418 84 414 Q101 410 104 392 Z" fill="#f7a3c3"/>
+  <circle cx="256" cy="262" r="192" fill="none" stroke="#ffffff" stroke-opacity=".16" stroke-width="14"/>
+  <circle cx="256" cy="262" r="192" fill="none" stroke="#ffd66b" stroke-width="14" stroke-linecap="round"
+          stroke-dasharray="904.8 1206.4" transform="rotate(-90 256 262)"/>
+  <circle cx="256" cy="280" r="150" fill="#8f1838"/>
+  <circle cx="256" cy="260" r="150" fill="url(#btn)"/>
+  <ellipse cx="170" cy="178" rx="30" ry="14" fill="#ffffff" fill-opacity=".45" transform="rotate(-42 170 178)"/>
+  <g clip-path="url(#face)">
+    <svg x="151.4" y="137.0" width="209.3" height="262.0" viewBox="235 140 615 770"><g fill="none" stroke-linecap="round"><path d="M478 690Q392 760 432 852M602 690Q688 760 648 852" stroke="#1D2A6B" stroke-width="44" /><path d="M478 690Q392 760 432 852M602 690Q688 760 648 852" stroke="#FFD6E4" stroke-width="24" /></g> <g fill="#FFD6E4" stroke="#1D2A6B" stroke-width="10" stroke-linejoin="round"><path d="M450 850Q452 878 420 878L388 878Q368 878 372 862Q378 844 412 842Z" /><path d="M630 850Q628 878 660 878L692 878Q712 878 708 862Q702 844 668 842Z" /></g> <g fill="none" stroke="#1D2A6B" stroke-linecap="round" stroke-linejoin="round"><path d="M410 520Q352 560 300 516M670 520Q735 548 784 486" stroke-width="16" /><path d="M296 512L252 500M296 512L258 470M296 512L284 458M296 512L320 470M788 482L834 474M788 482L830 442M788 482L806 430M788 482L770 438" stroke-width="12" /></g> <g fill="#FFD6E4" stroke="#1D2A6B" stroke-width="10"><circle cx="296" cy="512" r="20" /><circle cx="788" cy="482" r="20" /></g> <circle cx="296" cy="512" r="7" fill="#FFC61A" /><circle cx="788" cy="482" r="7" fill="#FFC61A" /> <path d="M408 270L414 196L444 246L464 180L486 244L512 194L524 262Z" fill="#FFC61A" stroke="#1D2A6B" stroke-width="10" stroke-linejoin="round" /> <path d="M612 256C610 214 626 192 650 184" fill="none" stroke="#1D2A6B" stroke-width="14" stroke-linecap="round" /> <circle cx="664" cy="176" r="24" fill="#FFC61A" stroke="#1D2A6B" stroke-width="12" /> <path d="M440 250L640 250Q692 250 690 302L670 650Q666 708 612 708L468 708Q414 708 410 650L390 302Q388 250 440 250Z" fill="#FFD6E4" stroke="#1D2A6B" stroke-width="18" stroke-linejoin="round" /> <path d="M697 330q16-4 20-18q2-12-10-9M694 392q18 0 24-14M690 454q16 6 22-8q4-10-6-11M402 590q-18 4-20-12" fill="none" stroke="#1D2A6B" stroke-width="7" stroke-linecap="round" /> <circle cx="440" cy="492" r="30" fill="#FF8FBA" /><circle cx="640" cy="492" r="30" fill="#FF8FBA" /> <g class="b-eyes"> <rect x="450" y="332" width="66" height="102" rx="28" fill="#E8434F" /><rect x="564" y="332" width="66" height="102" rx="28" fill="#E8434F" /> <path d="M463 368q6.5-8 13 0t13 0t13 0M463 390q6.5-8 13 0t13 0t13 0M463 412q6.5-8 13 0t13 0t13 0M577 368q6.5-8 13 0t13 0t13 0M577 390q6.5-8 13 0t13 0t13 0M577 412q6.5-8 13 0t13 0t13 0" fill="none" stroke="#9E1B32" stroke-width="6" stroke-linecap="round" /> <rect x="450" y="332" width="66" height="102" rx="28" fill="none" stroke="#1D2A6B" stroke-width="14" /><rect x="564" y="332" width="66" height="102" rx="28" fill="none" stroke="#1D2A6B" stroke-width="14" /> <g fill="#fff"><circle cx="496" cy="352" r="8" /><circle cx="610" cy="352" r="8" /><circle cx="502" cy="368" r="3.5" /><circle cx="616" cy="368" r="3.5" /></g> </g> <circle cx="540" cy="466" r="11" fill="#F29BB5" stroke="#1D2A6B" stroke-width="7" /> <g fill="none" stroke="#1D2A6B" stroke-width="5" stroke-linecap="round" opacity=".55"><path d="M516 610q5-8 10 0t10 0M546 628q5-8 10 0t10 0M522 646q5-8 10 0" /></g> <g class="m m-first"><path d="M508 518q32 30 64 0" fill="none" stroke="#1D2A6B" stroke-width="12" stroke-linecap="round" /></g> </svg>
+  </g>
+  <path d="M452 30 Q457 58 484 64 Q457 70 452 98 Q447 70 420 64 Q447 58 452 30 Z" fill="#ffd66b"/>
+  <path d="M74 404 Q77 422 94 426 Q77 430 74 448 Q71 430 54 426 Q71 422 74 404 Z" fill="#f7a3c3"/>
 </svg>
