@@ -11,3 +11,9 @@
 在线使用：https://youcyhuang.github.io/red-button-focus/
 
 单文件网页，直接打开 `index.html` 也能用。
+
+## 放到手机桌面
+- iPhone：用 Safari 打开 → 分享 → 添加到主屏幕
+- 安卓：用 Chrome 打开 → 右上角菜单 → 添加到主屏幕 / 安装应用
+
+图标是 `icon.svg`（源文件），另有 512 / 192 / 180 / 32 像素的 PNG。

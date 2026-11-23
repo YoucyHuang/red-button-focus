@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="46%" r="62%">
+      <stop offset="0" stop-color="#3d5bc4"/>
+      <stop offset=".55" stop-color="#26398f"/>
+      <stop offset="1" stop-color="#1b2b72"/>
+    </radialGradient>
+    <radialGradient id="btn" cx="38%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#ff9fb3"/>
+      <stop offset=".42" stop-color="#e63e62"/>
+      <stop offset="1" stop-color="#b5214a"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- progress ring: 3/4 done -->
+  <circle cx="256" cy="262" r="186" fill="none" stroke="#ffffff" stroke-opacity=".16" stroke-width="16"/>
+  <circle cx="256" cy="262" r="186" fill="none" stroke="#ffd66b" stroke-width="16" stroke-linecap="round"
+          stroke-dasharray="876.5 1168.7" transform="rotate(-90 256 262)"/>
+
+  <!-- the red button, with a little weird-friend face -->
+  <circle cx="256" cy="280" r="142" fill="#8f1838"/>
+  <circle cx="256" cy="260" r="142" fill="url(#btn)"/>
+  <ellipse cx="200" cy="186" rx="48" ry="24" fill="#ffffff" fill-opacity=".5" transform="rotate(-28 200 186)"/>
+
+  <ellipse cx="214" cy="262" rx="21" ry="27" fill="#ffffff"/>
+  <ellipse cx="298" cy="262" rx="21" ry="27" fill="#ffffff"/>
+  <circle cx="218" cy="256" r="11" fill="#1f44a8"/>
+  <circle cx="302" cy="256" r="11" fill="#1f44a8"/>
+  <ellipse cx="176" cy="308" rx="20" ry="11" fill="#ffb3c4" fill-opacity=".85"/>
+  <ellipse cx="336" cy="308" rx="20" ry="11" fill="#ffb3c4" fill-opacity=".85"/>
+  <ellipse cx="256" cy="314" rx="11" ry="13" fill="#1f44a8"/>
+
+  <!-- sparkle -->
+  <path d="M446 34 Q451 62 478 68 Q451 74 446 102 Q441 74 414 68 Q441 62 446 34 Z" fill="#ffd66b"/>
+  <path d="M104 392 Q107 410 124 414 Q107 418 104 436 Q101 418 84 414 Q101 410 104 392 Z" fill="#f7a3c3"/>
+</svg>
